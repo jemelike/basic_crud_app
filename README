@@ -1,0 +1,23 @@
+
+Requirements:
+
+- docker
+- python3
+- node 
+- npm
+
+### Dev Build Instructions
+python backend/src/main.py
+
+### Prod Build Instructions
+
+TODO:
+1. decouple web app build from backend by having the producitonize build of the react app stored in a S3 or some other CDN technology for hosting static files
+
+
+Useful Reference Material:
+- https://hub.docker.com/_/postgres
+- https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project 
+- https://www.geeksforgeeks.org/dockerize-your-flask-app/
+- https://www.geeksforgeeks.org/making-a-flask-app-using-a-postgresql-database/
+- https://www.geeksforgeeks.org/how-to-dockerize-a-reactjs-app/
